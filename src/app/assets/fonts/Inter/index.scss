@@ -1,0 +1,71 @@
+/* Light 300 */
+@font-face {
+  font-family: 'Inter';
+  src: url('./ttf/Inter-Light.ttf');
+  font-weight: 300;
+}
+/* Light 300 Italic */
+@font-face {
+  font-family: 'Inter';
+  src: url('./ttf/Inter-LightItalic.ttf');
+  font-weight: 300;
+  font-style: italic;
+}
+/* Regular 400 */
+@font-face {
+  font-family: 'Inter';
+  src: url('./ttf/Inter-Regular.ttf');
+  font-weight: 400;
+}
+/* Regular 400 Italic */
+@font-face {
+  font-family: 'Inter';
+  src: url('./ttf/Inter-Regular.ttf');
+  font-weight: 400;
+  font-style: italic;
+}
+/* Medium 500 */
+@font-face {
+  font-family: 'Inter';
+  src: url('./ttf/Inter-Medium.ttf');
+  font-weight: 500;
+}
+/* Medium 500 Italic */
+@font-face {
+  font-family: 'Inter';
+  src: url('./ttf/Inter-MediumItalic.ttf');
+  font-weight: 500;
+  font-style: italic;
+}
+/* Semi-Bold 400 */
+@font-face {
+  font-family: 'Inter';
+  src: url('./ttf/Inter-SemiBold.ttf');
+  font-weight: 600;
+}
+/* Semi-Bold 400 Italic */
+@font-face {
+  font-family: 'Inter';
+  src: url('./ttf/Inter-SemiBoldItalic.ttf');
+  font-weight: 600;
+  font-style: italic;
+}
+/* Bold 500 */
+@font-face {
+  font-family: 'Inter';
+  src: url('./ttf/Inter-Bold.ttf');
+  font-weight: 700;
+}
+/* Bold 500 Italic */
+@font-face {
+  font-family: 'Inter';
+  src: url('./ttf/Inter-BoldItalic.ttf');
+  font-weight: 700;
+  font-style: italic;
+}
+
+:root {
+  .ff-M {
+    font-family: 'Inter';
+  }
+}
