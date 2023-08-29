@@ -16,19 +16,19 @@
 <style lang="scss" scoped>
 .default_layout {
   display: grid;
-  grid-template-columns: 64px repeat(12, 1fr) 64px;
-  grid-column-gap: 32px;
+  grid-template-columns: 3.2rem repeat(12, 1fr) 3.2rem;
+  grid-column-gap: 1.6rem;
   &-header_wrap {
-    padding: 0 64px;
+    padding: 0 3.2rem;
     grid-column-start: 1;
     grid-column-end: end;
   }
   &-body {
-    padding: 0 64px;
+    padding: 0 3.2rem;
     grid-column-start: 1;
     grid-column-end: end;
     display: grid;
-    grid-column-gap: 32px;
+    grid-column-gap: 1.6rem;
     grid-template-columns: repeat(12, 1fr);
   }
 }

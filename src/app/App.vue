@@ -11,4 +11,8 @@ import { DefaultLayout, HeaderLayout } from '@/widgets'
   </DefaultLayout>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+html {
+  font-size: 1.04166666vw;
+}
+</style>

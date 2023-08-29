@@ -1,7 +1,9 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { WelcomeBlock } from '@/widgets'
+</script>
 
 <template>
-  <h1>Main</h1>
+  <WelcomeBlock />
 </template>
 
 <style lang="scss" scoped></style>
