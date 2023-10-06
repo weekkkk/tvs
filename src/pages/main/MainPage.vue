@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { WelcomeBlock, PortfolioBlock, PriceBlock, ReviewsBlock } from '@/widgets'
+import { WelcomeBlock, PortfolioBlock, PriceBlock, ReviewsBlock, QuestionsBlock } from '@/widgets'
 </script>
 
 <template>
@@ -9,7 +9,9 @@ import { WelcomeBlock, PortfolioBlock, PriceBlock, ReviewsBlock } from '@/widget
 
   <PriceBlock class="main_page-price_block" />
 
-  <ReviewsBlock />
+  <ReviewsBlock class="main_page-reviews_block" />
+
+  <QuestionsBlock />
 </template>
 
 <style lang="scss" scoped>
@@ -18,6 +20,9 @@ import { WelcomeBlock, PortfolioBlock, PriceBlock, ReviewsBlock } from '@/widget
     margin-bottom: 14rem;
   }
   &-portfolio_block {
+    margin-bottom: 14rem;
+  }
+  &-reviews_block {
     margin-bottom: 14rem;
   }
 }

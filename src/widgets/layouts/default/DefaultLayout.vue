@@ -10,6 +10,8 @@
         <RouterView />
       </slot>
     </main>
+    
+    <slot name="footer" />
   </div>
 </template>
 

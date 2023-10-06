@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { DefaultLayout, HeaderLayout } from '@/widgets'
+import { DefaultLayout, HeaderLayout, FooterLayout } from '@/widgets'
 </script>
 
 <template>
@@ -8,6 +8,10 @@ import { DefaultLayout, HeaderLayout } from '@/widgets'
       <HeaderLayout />
     </template>
     <RouterView />
+
+    <template #footer>
+      <FooterLayout />
+    </template>
   </DefaultLayout>
 </template>
 
